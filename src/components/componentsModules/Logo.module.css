@@ -1,0 +1,39 @@
+.logo {
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: rgb(63 63 70 / 1);
+  font-size: 50px;
+  width: fit-content;
+  position: relative;
+}
+
+.logo::before {
+  content: "QURAN";
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-text-fill-color: white;
+  transition: 1s ease-in-out;
+  width: 0;
+  overflow: hidden;
+  animation: fill 3s ease-in-out infinite alternate;
+}
+
+.logo:hover::before {
+  width: 100%;
+}
+
+@keyframes fill {
+  0% {
+    content: "QURAN";
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-text-fill-color: white;
+    transition: 1s ease-in-out;
+    width: 0;
+    overflow: hidden;
+  }
+  100% {
+    width: 100%;
+  }
+}

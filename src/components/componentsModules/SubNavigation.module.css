@@ -1,0 +1,11 @@
+.arrowHover:hover {
+  background-color: white;
+}
+
+.arrowHover:hover svg {
+  color: black;
+}
+
+.icon {
+  background: linear-gradient(90deg, red 70%, transparent);
+}

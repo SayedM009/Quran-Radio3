@@ -1,0 +1,9 @@
+:global(.btn:hover) {
+  background: white;
+  color: black;
+}
+
+:global(.selected) {
+  background-color: white;
+  color: black !important;
+}

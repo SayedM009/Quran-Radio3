@@ -1,0 +1,9 @@
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+.selected {
+  background-color: white;
+  color: black !important;
+}
